@@ -32,6 +32,5 @@ For this option, design a touchscreen-enabled bank machine UI. It should support
 4. Transfers between accounts
 
 ## Contributors
-* [Kevin Hardy-Cooper](https://github.com/KevinHardy-Cooper)
-* [Terin Dhadda](https://github.com/terindhadda)
-* [Abraham Omorogbe](https://github.com/AbeOmor)
+*sairus varma
+
